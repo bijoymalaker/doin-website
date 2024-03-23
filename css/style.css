@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #131314;
+}
+.nav-logo{
+    width: 100px;
+}
+.border-hover{
+    position: relative;
+  text-decoration: none;
+}
+.border-hover::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: wheat;
+    transition: width 0.3s ease;
+    
+}
+.border-hover:hover::before {
+    width: 100%; /* Expand width on hover */
+  }
