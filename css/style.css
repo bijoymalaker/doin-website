@@ -27,3 +27,14 @@ body{
 .border-hover:hover::before {
     width: 100%; /* Expand width on hover */
   }
+
+.banner-des{
+    font-size: 90px;
+    color: ;
+    
+        background-image: linear-gradient(to right, #ffee00, #f1f1f1); /* Gradient from left to right */
+        -webkit-background-clip: text; /* Clip the text to the gradient */
+        color: transparent; /* Make the text transparent */
+     }
+
+
