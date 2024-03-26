@@ -6,11 +6,13 @@
 
 :root{
     --gradiant-color: linear-gradient(to right, #ffee00, #f1f1f1);
+    --
 }
-
 body{
     background-color: #131314;
 }
+
+/* header part start  */
 .nav-logo{
     width: 100px;
 }
@@ -32,13 +34,15 @@ body{
 .border-hover:hover::before {
     width: 100%; /* Expand width on hover */
 }
+/* header part end  */
 
+/* banner part start  */
 .banner-part{
     margin-top: 5rem;
 }
 
 .banner-des{
-    font-size: 90px;
+     font-size: 90px;
      background-image: var(--gradiant-color); /* Gradient from left to right */
      background-clip: text;
         color: transparent; /* Make the text transparent */
@@ -56,17 +60,18 @@ body{
 .home-banner{
     border-radius: 50px;
 }
+/* banner part end  */
 
+/* service part start  */
 .service-box{
     background: #030303;
     padding: 20vh 0vh;
     border-radius: 60px;
-
 }
-
 .service-img-1{
     max-width: 30%;
 }
 .service-img-2{
     max-width: 50%;
 }
+/* service  part end  */
