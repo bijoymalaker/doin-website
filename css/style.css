@@ -42,7 +42,7 @@ body{
 }
 
 .banner-des{
-     font-size: 90px;
+     font-size: 80px;
      background-image: var(--gradiant-color); /* Gradient from left to right */
      background-clip: text;
         color: transparent; /* Make the text transparent */
@@ -75,3 +75,7 @@ body{
     max-width: 50%;
 }
 /* service  part end  */
+
+.client-review-part{
+    height: 10vh;
+}
