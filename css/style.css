@@ -6,10 +6,11 @@
 
 :root{
     --gradiant-color: linear-gradient(to right, #ffee00, #f1f1f1);
-    --
+    --bg-color: #131314;
 }
+
 body{
-    background-color: #131314;
+    background-color: var(--bg-color);
 }
 
 /* header part start  */
@@ -77,5 +78,8 @@ body{
 /* service  part end  */
 
 .client-review-part{
-    height: 10vh;
+    height: 80vh;
+}
+.client-review-part::-webkit-scrollbar{
+    display: none;
 }
