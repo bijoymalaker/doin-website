@@ -7,6 +7,7 @@
 :root{
     --gradiant-color: linear-gradient(to right, #ffee00, #f1f1f1);
     --bg-color: #131314;
+    --footer-color: #030303;
 }
 
 body{
@@ -82,4 +83,9 @@ body{
 }
 .client-review-part::-webkit-scrollbar{
     display: none;
+}
+
+/* footer part start  */
+.footer-part{
+    background-color: var(--footer-color);
 }
